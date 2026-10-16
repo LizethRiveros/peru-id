@@ -1,0 +1,6 @@
+codigo,nombre,verificado,fuente
+002,Banco de Credito del Peru (BCP),no,"Dos fuentes secundarias coinciden; falta el listado oficial del BCRP"
+003,Interbank,no,"Dos fuentes secundarias coinciden; falta el listado oficial del BCRP"
+009,"En disputa: Scotiabank Peru o BBVA Peru",no,"Una fuente asigna 009 a Scotiabank; la pagina de BBVA Peru lo asigna a BBVA. Sin resolver"
+011,"En disputa: BBVA Peru o Scotiabank Peru",no,"Ver 009"
+018,Banco de la Nacion,si,"BBVA Peru (pagina informativa) y listado BCRP (via resumen) coinciden"

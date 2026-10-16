@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "peru-id"
+version = "0.1.0"
+description = "Valida RUC, DNI, CCI y telefonos del Peru; genera RUC de prueba"
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+peru-id = "peru_id.cli:main"
+cci = "peru_id.cli:main_cci"
+
+[tool.setuptools]
+packages = ["peru_id"]
+
+[tool.setuptools.package-data]
+peru_id = ["bancos.csv"]
